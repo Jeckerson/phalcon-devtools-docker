@@ -7,3 +7,5 @@ RUN apt-get update && apt-get install -y git \
 
 RUN curl -s "https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh" | bash
 RUN apt-get install -y php7.0-phalcon
+
+EXPOSE 8000
