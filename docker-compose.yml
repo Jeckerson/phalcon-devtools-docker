@@ -1,0 +1,10 @@
+version: '3.2'
+
+services:
+  phalcon-devtools:
+    build: ./build
+    container_name: phalcon-devtools
+    volumes:
+      - ./phalcon-devtools:/var/phalcon-devtools:rw
+    ports:
+      - 8000:8000
