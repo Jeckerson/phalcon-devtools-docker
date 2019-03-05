@@ -9,3 +9,5 @@ RUN curl -s "https://packagecloud.io/install/repositories/phalcon/stable/script.
 RUN apt-get install -y php7.0-phalcon
 
 EXPOSE 8000
+
+ENTRYPOINT ["top", "-b"]
