@@ -4,6 +4,7 @@ Fast deploy of phalcon-devtools to docker container.
 
 ## First run
 
+```
 1. git clone git@github.com:phalcon/phalcon-devtools.git (or your forked repository)
 2. docker-compose up -d
 3. docker exec -it phalcon-devtools bash
@@ -15,3 +16,4 @@ Fast deploy of phalcon-devtools to docker container.
 9. cd project1
 10. phalcon webtools enable
 11. php -S 0.0.0.0:8000 -t .htrouter.php -t public
+```
