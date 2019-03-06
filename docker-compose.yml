@@ -4,7 +4,9 @@ services:
   phalcon-devtools:
     build: ./build
     container_name: phalcon-devtools
+    #working_dir: /opt/phalcon-devtools
     volumes:
-      - ./phalcon-devtools:/var/phalcon-devtools:rw
+      - ./phalcon-devtools:/opt/phalcon-devtools:rw
+      - ./projects:/var/www:rw
     ports:
       - 8000:8000
