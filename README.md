@@ -16,4 +16,8 @@ Fast deploy of phalcon-devtools to docker container.
 9. cd project1
 10. phalcon webtools enable
 11. php -S 0.0.0.0:8000 -t .htrouter.php -t public
+12. open http://127.0.0.1:8000/webtools.php
 ```
+
+In case if you get 403 Forbidden, open inside your created project file `public/webtools.config.php`
+and change value of `PTOOLS_IP` to `$_SERVER['REMOTE_ADDR']`. 
