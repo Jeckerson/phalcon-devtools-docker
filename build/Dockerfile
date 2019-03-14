@@ -6,6 +6,7 @@ RUN apt-get update && apt-get install -y git \
     php7.0 \
     php7.0-mbstring \
     php7.0-sqlite \
+    php7.0-dom \ 
     sqlite3
 
 RUN curl -s "https://packagecloud.io/install/repositories/phalcon/stable/script.deb.sh" | bash
