@@ -9,7 +9,7 @@ Fast deploy of phalcon-devtools to docker container.
 2. docker-compose up -d
 3. docker exec -it phalcon-devtools bash
 4. cd /opt/phalcon-devtools
-5. ln -s $(pwd)/phalcon.php /usr/bin/phalcon
+5. ln -s $(pwd)/phalcon /usr/bin/phalcon
 6. chmod ugo+x /usr/bin/phalcon
 7. cd /var/www
 8. phalcon project project1
