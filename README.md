@@ -14,8 +14,8 @@ Fast deploy of phalcon-devtools to docker container.
 7. cd /var/www
 8. phalcon project project1
 9. cd project1
-10. php -S 0.0.0.0:8000 -t .htrouter.php -t public
-11. phalcon serve
+10. phalcon webtools enable
+11. php -S 0.0.0.0:8000 -t .htrouter.php -t public
 12. open http://127.0.0.1:8000/webtools.php
 ```
 
